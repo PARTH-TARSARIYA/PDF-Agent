@@ -1,8 +1,11 @@
-langchain
-langchain_google_genai
-dotenv
-langchain_community
-pypdf
 fastapi
-uvicorn
+uvicorn[standard]
+python-multipart
+python-dotenv
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+pypdf
 pydantic
+faiss-cpu
