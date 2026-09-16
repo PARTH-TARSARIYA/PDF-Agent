@@ -9,8 +9,8 @@ st.title("PDF QA Bot")
 
 # API URLs
 
-RAG_API_URL = "http://backend:8000/text"
-AGENT_API_URL = "http://backend:8000/ask"
+RAG_API_URL = "http://localhost:8000/text"
+AGENT_API_URL = "http://localhost:8000/ask"
 
 
 # Initialize session state
@@ -119,7 +119,7 @@ if st.session_state.session_id:
 
         else:
 
-            st.write(
+            st.success(
                 f"**Assistant:** {message['content']}"
             )
 
